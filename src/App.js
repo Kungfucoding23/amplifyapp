@@ -6,12 +6,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <AmplifySignOut />
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello from V4
-        </p>       
+        <h1>
+          Now we hace Auth!
+        </h1>       
       </header>
-      <AmplifySignOut />
     </div>
   );
 }
